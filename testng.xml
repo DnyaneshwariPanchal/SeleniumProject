@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.orgHrm.testScripts.DashBoardTest"/>
+      <class name="com.orgHrm.testScripts.RegistrationTest"/>
+      <class name="com.orgHrm.testScripts.TestCase5"/>
+      <class name="com.practice.orghrm.testscripts.FirstTest"/>
+      <class name="com.orgHrm.testScripts.TestBase"/>
+      <class name="com.orgHrm.testScripts.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
